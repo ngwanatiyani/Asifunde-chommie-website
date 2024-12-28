@@ -23,7 +23,7 @@ Engage with fellow students, ask questions, and share knowledge in the community
 💌 **Contact Section**  
 Reach out to us with any queries or feedback through the simple contact form.
 
-🔒 **Secure Login & Sign-Up**  
+🔒 **Login & Sign-Up**  
 Seamlessly log in or sign up to access personalized features.
 
 ---
