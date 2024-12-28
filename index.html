@@ -21,24 +21,51 @@
 </head>
 
 <body class="bg-gray-100 font-sans">
-    <!-- Navbar -->
-    <nav class="bg-blue-600 text-white py-3">
-        <div class="container mx-auto flex justify-between items-center px-4">
-            <!-- Logo Image -->
-            <a href="index.html">
-                <img src="images/a10.png" alt="Asifunde Chommie Logo" class="w-auto max-w-full h-20">
-                <!-- Adjust height as needed -->
-            </a>
-            <ul class="flex space-x-6 w-full justify-center">
-                <li><a href="index.html" class="hover:underline">Home</a></li>
-                <li><a href="courses.html" class="hover:underline">Courses</a></li>
-                <li><a href="forum.html" class="hover:underline">Forum</a></li>
-                <li><a href="about.html" class="hover:underline">About</a></li>
-                <li><a href="#contact" class="hover:underline">Contact</a></li>
-                <li><a href="login.html" class="hover:underline">Login</a></li>
-            </ul>
+
+    
+   <!-- Navbar -->
+<nav class="bg-blue-600 text-white py-3">
+    <div class="container mx-auto flex justify-between items-center px-4">
+        <!-- Logo Image -->
+        <a href="index.html">
+            <img src="images/a10.png" alt="Asifunde Chommie Logo" class="w-auto h-20">
+        </a>
+
+        <!-- Navbar Links (Mobile and Desktop) -->
+        <div class="lg:hidden">
+            <!-- Mobile Menu Button (Hamburger) -->
+            <button class="text-white focus:outline-none" id="mobile-menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
-    </nav>
+
+        <!-- Desktop Navbar Links -->
+        <ul class="hidden lg:flex space-x-6 w-full justify-center">
+            <li><a href="index.html" class="hover:underline">Home</a></li>
+            <li><a href="courses.html" class="hover:underline">Courses</a></li>
+            <li><a href="forum.html" class="hover:underline">Forum</a></li>
+            <li><a href="about.html" class="hover:underline">About</a></li>
+            <li><a href="#contact" class="hover:underline">Contact</a></li>
+            <li><a href="login.html" class="hover:underline">Login</a></li>
+        </ul>
+    </div>
+
+    <!-- Mobile Menu (Initially Hidden) -->
+    <div class="lg:hidden hidden" id="mobile-menu">
+        <ul class="flex flex-col items-center space-y-4 py-4">
+            <li><a href="index.html" class="hover:underline">Home</a></li>
+            <li><a href="courses.html" class="hover:underline">Courses</a></li>
+            <li><a href="forum.html" class="hover:underline">Forum</a></li>
+            <li><a href="about.html" class="hover:underline">About</a></li>
+            <li><a href="#contact" class="hover:underline">Contact</a></li>
+            <li><a href="login.html" class="hover:underline">Login</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Add Tailwind and Font Awesome scripts -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
 
     <!-- Hero Section -->
     <header id="home" class="bg-gradient-to-r from-blue-500 to-teal-500 text-white py-20">
