@@ -32,7 +32,7 @@ Seamlessly log in or sign up to access personalized features.
 
 ![Bootstrap](https://skillicons.dev/icons?i=bootstrap)
 ![Tailwind CSS](https://skillicons.dev/icons?i=tailwind)
-![JavaScript](https://skillicons.dev/icons?i=js) (minimal)
+![JavaScript](https://skillicons.dev/icons?i=js)
 ![HTML](https://skillicons.dev/icons?i=html)
 
 
