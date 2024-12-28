@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asifunde Chommie</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .highlight {
+            background: linear-gradient(to right, #ffafbd, #ffc3a0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <!-- Navbar -->
+    <nav class="bg-blue-600 text-white py-3">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <!-- Logo Image -->
+            <a href="index.html">
+                <img src="images/a10.png" alt="Asifunde Chommie Logo" class="w-auto max-w-full h-20">
+                <!-- Adjust height as needed -->
+            </a>
+            <ul class="flex space-x-6 w-full justify-center">
+                <li><a href="index.html" class="hover:underline">Home</a></li>
+                <li><a href="courses.html" class="hover:underline">Courses</a></li>
+                <li><a href="forum.html" class="hover:underline">Forum</a></li>
+                <li><a href="about.html" class="hover:underline">About</a></li>
+                <li><a href="#contact" class="hover:underline">Contact</a></li>
+                <li><a href="login.html" class="hover:underline">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="bg-gradient-to-r from-blue-500 to-teal-500 text-white py-20">
+        <div class="container mx-auto text-center px-4">
+            <h2 class="text-4xl font-bold mb-4 highlight">Your Study Partner in Learning</h2>
+            <p class="text-lg mb-6">Join Asifunde Chommie a Premium+ platform and access resources tailored for South African learners.</p>
+            <a href="courses.html" class="bg-white text-blue-600 px-6 py-2 rounded-lg shadow hover:bg-gray-200">Explore
+                Courses</a>
+        </div>
+    </header>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-12 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center mb-8">Available Courses</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-white shadow rounded text-center">
+                    <i class="fas fa-calculator text-4xl text-blue-600 mb-4"></i>
+                    <h4 class="text-xl font-semibold mb-2">Mathematics</h4>
+                    <p>Comprehensive math courses for all levels.</p>
+                    <a href="#" class="text-blue-600 hover:underline">Learn More</a>
+                </div>
+                <div class="p-6 bg-white shadow rounded text-center">
+                    <i class="fas fa-flask text-4xl text-blue-600 mb-4"></i>
+                    <h4 class="text-xl font-semibold mb-2">Science</h4>
+                    <p>Explore physics, chemistry, and biology resources.</p>
+                    <a href="#" class="text-blue-600 hover:underline">Learn More</a>
+                </div>
+                <div class="p-6 bg-white shadow rounded text-center">
+                    <i class="fas fa-laptop-code text-4xl text-blue-600 mb-4"></i>
+                    <h4 class="text-xl font-semibold mb-2">Information Technology</h4>
+                    <p>Learn how to code in different languages.</p>
+                    <a href="#" class="text-blue-600 hover:underline">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Forum Section -->
+    <section id="forum" class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center mb-8">Discussion Forum</h3>
+            <p class="text-center mb-6">Engage in conversations and collaborate with fellow students.</p>
+
+            <!-- Search Bar -->
+            <div class="mb-6">
+                <input type="text" class="w-full p-3 rounded border" placeholder="Search discussions...">
+            </div>
+
+            <!-- Post Form -->
+            <div class="p-6 bg-gray-100 rounded shadow">
+                <form>
+                    <textarea class="w-full p-4 rounded border" placeholder="Ask a question or share your thoughts..."
+                        required></textarea>
+                    <button type="submit"
+                        class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Post</button>
+                </form>
+            </div>
+
+            <!-- Recent Discussions -->
+            <div class="mt-6">
+                <h4 class="text-lg font-semibold mb-4">Recent Discussions</h4>
+                <ul class="space-y-4">
+                    <li class="p-4 bg-white rounded shadow">
+                        <a href="#" class="text-blue-600 font-semibold hover:underline">How do I prepare for exams
+                            effectively?</a>
+                        <p class="text-sm text-gray-500">Started by Tiyani Ngwana • 5 replies</p>
+                    </li>
+                    <li class="p-4 bg-white rounded shadow">
+                        <a href="#" class="text-blue-600 font-semibold hover:underline">What are the best resources for
+                            learning Python?</a>
+                        <p class="text-sm text-gray-500">Started by Shaun Msutu • 3 replies</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center mb-8">Contact Us</h3>
+            <form class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">Name</label>
+                    <input type="text" id="name" class="w-full p-3 rounded border" placeholder="Your Name" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" class="w-full p-3 rounded border" placeholder="Your Email" required>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" class="w-full p-3 rounded border" placeholder="Your Message"
+                        required></textarea>
+                </div>
+                <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Asifunde Chommie/Ngwana Tiyani. All rights reserved.</p>
+            <ul class="flex justify-center space-x-4 mt-4">
+                <li><a href="#" class="hover:underline"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#" class="hover:underline"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" class="hover:underline"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
