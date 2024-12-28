@@ -59,6 +59,17 @@
             <li><a href="login.html" class="hover:underline">Login</a></li>
         </ul>
     </div>
+    <!-- Add Tailwind and Font Awesome scripts -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script>
+    // Mobile menu toggle functionality
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+</script>
 </nav>
 
     <!-- Forum Section -->
