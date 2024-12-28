@@ -67,6 +67,15 @@
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 
+<script>
+    // Mobile menu toggle functionality
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+</script>
     <!-- Hero Section -->
     <header id="home" class="bg-gradient-to-r from-blue-500 to-teal-500 text-white py-20">
         <div class="container mx-auto text-center px-4">
