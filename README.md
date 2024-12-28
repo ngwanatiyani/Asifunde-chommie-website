@@ -5,7 +5,7 @@ Welcome to the official repository for **Asifunde Chommie**! 🎓 This platform 
 ---
 
 ## 🌐 Live Preview
-Check out the live version here: [Asifunde Chommie Website](#) 
+Check out the live version here: https://asifunde.netlify.app
 
 ---
 
