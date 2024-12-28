@@ -1,0 +1,18 @@
+ .highlight {
+            background: linear-gradient(to right, #ffafbd, #ffc3a0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .background-image {
+            background-image: url('images/background.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .premium-content {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
