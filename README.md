@@ -1,4 +1,4 @@
-# 🌟 Asifunde Chommie Website 🌍
+## 🌟 Asifunde Chommie Website 🌍
 
 Welcome to the official repository for **Asifunde Chommie**! 🎓 This platform is designed to support South African high school learners with premium learning content, interactive courses, discussion forums, and more. Few functionalities to be added this is just a prototype. 🚀
 
